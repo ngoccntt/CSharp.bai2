@@ -10,6 +10,10 @@ namespace CSharp.bai2
     {
         static void Main(string[] args)
         {
+            Console.Write("Nhap ten cua ban: ");
+            string ten = Console.ReadLine();
+            Console.Write("Hello {0}!",ten);
+            Console.ReadKey();
         }
     }
 }
